@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Overpass;
+  font-style: normal;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -9,4 +10,8 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(#ff9500, #ff5e3a);
 }
