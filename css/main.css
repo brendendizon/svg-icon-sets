@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
-  font-family: Overpass;
+  font-family: Overpass, sans-serif;
   font-style: normal;
+  line-height: 1.5;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
 *, *::before, *::after {
@@ -13,9 +15,19 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#ff9500, #ff5e3a);
+  margin: 0;
 }
 
-.icon {
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: rgba(255, 255, 255, .7);
+}
+
+h1, h2, h3 {
   color: #fff;
 }
