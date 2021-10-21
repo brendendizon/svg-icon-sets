@@ -15,3 +15,7 @@ html {
 body {
   background-image: linear-gradient(#ff9500, #ff5e3a);
 }
+
+.icon {
+  color: #fff;
+}
