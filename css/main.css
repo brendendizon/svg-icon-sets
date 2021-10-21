@@ -21,13 +21,42 @@ body {
 a {
   color: #fff;
   text-decoration: none;
+  border: .2rem solid rgba(255, 255, 255, .7);
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-a:hover,
-a:focus {
-  color: rgba(255, 255, 255, .7);
+svg {
+  width: 8rem;
+  height: 8rem;
+  fill: #fff;
+}
+
+a:hover {
+  color: #000;
 }
 
 h1, h2, h3 {
+  padding: 1rem;
   color: #fff;
+}
+
+.button {
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: normal;
+  text-align: left;
 }
